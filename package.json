@@ -1,0 +1,28 @@
+{
+    "name": "minions-bundles-portfolio-workspace",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Top-level structural organizational bundle — categories, ecosystems, projects",
+    "type": "module",
+    "license": "MIT",
+    "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "pnpm --filter @mxn2020/minions-bundles-portfolio-sdk run build && pnpm --filter @mxn2020/minions-bundles-portfolio-cli run build && pnpm --filter minions-bundles-portfolio-docs run build && pnpm --filter minions-bundles-portfolio-blog run build && pnpm --filter minions-bundles-portfolio-web run build",
+        "deploy:blog": "pnpm --filter minions-bundles-portfolio-blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter minions-bundles-portfolio-docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter minions-bundles-portfolio-web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @mxn2020/minions-bundles-portfolio-sdk run test",
+        "lint": "pnpm --filter @mxn2020/minions-bundles-portfolio-sdk run build && pnpm --filter @mxn2020/minions-bundles-portfolio-sdk run lint && pnpm --filter @mxn2020/minions-bundles-portfolio-cli run lint",
+        "deploy": "pnpm run deploy:blog"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}

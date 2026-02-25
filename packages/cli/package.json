@@ -1,0 +1,41 @@
+{
+  "name": "@mxn2020/minions-bundles-portfolio-cli",
+  "version": "0.1.0",
+  "description": "CLI for minions-bundles-portfolio — Top-level structural organizational bundle — categories, ecosystems, projects",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxn2020/minions-bundles-portfolio"
+  },
+  "homepage": "https://docs.minions.wtf",
+  "keywords": {
+    {keywordsJson
+    }
+  },
+  "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+  "type": "module",
+  "bin": {
+    "minions-bundles-portfolio": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "dependencies": {
+    "@mxn2020/minions-bundles-portfolio-sdk": "workspace:*",
+    "chalk": "^5.3.0",
+    "commander": "^14.0.3",
+    "inquirer": "^13.2.5",
+    "minions-sdk": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
+}
