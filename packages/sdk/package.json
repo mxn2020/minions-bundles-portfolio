@@ -1,5 +1,5 @@
 {
-  "name": "@mxn2020/minions-bundles-portfolio-sdk",
+  "name": "@minions-bundles-portfolio/sdk",
   "version": "0.1.0",
   "description": "Top-level structural organizational bundle — categories, ecosystems, projects",
   "type": "module",
