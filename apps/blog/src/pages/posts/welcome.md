@@ -10,9 +10,9 @@ We're excited to introduce **Minions Bundle: Portfolio** — Top-level structura
 
 ## What's Included
 
-- **TypeScript SDK**: `npm install @mxn2020/minions-bundles-portfolio-sdk`
+- **TypeScript SDK**: `npm install @minions-bundles-portfolio/sdk`
 - **Python SDK**: `pip install minions-bundles-portfolio`
-- **CLI**: `npm install -g @mxn2020/minions-bundles-portfolio-cli`
+- **CLI**: `npm install -g @minions-bundles-portfolio/cli`
 
 ## Getting Started
 

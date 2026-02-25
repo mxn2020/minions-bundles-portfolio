@@ -16,5 +16,5 @@ What you expected to happen.
 
 **Environment**
 - Node.js version:
-- @mxn2020/minions-bundles-portfolio-sdk version:
+- @minions-bundles-portfolio/sdk version:
 - OS:

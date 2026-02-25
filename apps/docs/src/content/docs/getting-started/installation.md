@@ -6,7 +6,7 @@ description: "Install Minions Bundle: Portfolio packages"
 ## TypeScript / Node.js
 
 ```bash
-npm install @mxn2020/minions-bundles-portfolio-sdk minions-sdk
+npm install @minions-bundles-portfolio/sdk minions-sdk
 ```
 
 ## Python
@@ -18,7 +18,7 @@ pip install minions-bundles-portfolio
 ## CLI
 
 ```bash
-npm install -g @mxn2020/minions-bundles-portfolio-cli
+npm install -g @minions-bundles-portfolio/cli
 ```
 
 ## Requirements

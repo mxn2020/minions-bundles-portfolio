@@ -1,17 +1,17 @@
-# @mxn2020/minions-bundles-portfolio-sdk
+# @minions-bundles-portfolio/sdk
 
 Top-level structural organizational bundle — categories, ecosystems, projects
 
 ## Installation
 
 ```bash
-npm install @mxn2020/minions-bundles-portfolio-sdk minions-sdk
+npm install @minions-bundles-portfolio/sdk minions-sdk
 ```
 
 ## Usage
 
 ```typescript
-import { createMinion } from '@mxn2020/minions-bundles-portfolio-sdk';
+import { createMinion } from '@minions-bundles-portfolio/sdk';
 
 // TODO: Add your SDK's usage example here
 ```

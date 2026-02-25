@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * @mxn2020/minions-bundles-portfolio-cli — CLI for Minions Bundle: Portfolio
+ * @minions-bundles-portfolio/cli — CLI for Minions Bundle: Portfolio
  *
  * Uses minions-sdk's JsonFileStorageAdapter for sharded, atomic file storage:
  *   <rootDir>/<id[0..1]>/<id[2..3]>/<id>.json
@@ -18,7 +18,7 @@ import {
 } from 'minions-sdk';
 import type { Minion, StorageFilter } from 'minions-sdk';
 import { JsonFileStorageAdapter } from 'minions-sdk/node';
-import { bundleTypes as customTypes } from '@mxn2020/minions-bundles-portfolio-sdk';
+import { bundleTypes as customTypes } from '@minions-bundles-portfolio/sdk';
 
 const program = new Command();
 const STORE_DIR = process.env.MINIONS_STORE || '.minions';
@@ -61,8 +61,8 @@ program
         console.log(chalk.bold('Minions Bundle: Portfolio'));
         console.log(chalk.dim('Top-level structural organizational bundle — categories, ecosystems, projects'));
         console.log('');
-        console.log(`  SDK:    ${chalk.cyan('@mxn2020/minions-bundles-portfolio-sdk')}`);
-        console.log(`  CLI:    ${chalk.cyan('@mxn2020/minions-bundles-portfolio-cli')}`);
+        console.log(`  SDK:    ${chalk.cyan('@minions-bundles-portfolio/sdk')}`);
+        console.log(`  CLI:    ${chalk.cyan('@minions-bundles-portfolio/cli')}`);
         console.log(`  Python: ${chalk.cyan('minions-bundles-portfolio')}`);
         console.log(`  Store:  ${chalk.cyan(STORE_DIR)}`);
         console.log(`  Types:  ${chalk.cyan(String(customTypes.length))}`);

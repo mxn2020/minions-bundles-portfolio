@@ -37,7 +37,7 @@ jobs:
         run: pnpm run lint
 
       - name: Build core packages
-        run: pnpm --filter @mxn2020/minions-bundles-portfolio-sdk run build && pnpm --filter @mxn2020/minions-bundles-portfolio-cli run build && pnpm --filter minions-bundles-portfolio-docs run build && pnpm --filter minions-bundles-portfolio-blog run build && pnpm --filter minions-bundles-portfolio-web run build
+        run: pnpm --filter @minions-bundles-portfolio/sdk run build && pnpm --filter @minions-bundles-portfolio/cli run build && pnpm --filter minions-bundles-portfolio-docs run build && pnpm --filter minions-bundles-portfolio-blog run build && pnpm --filter minions-bundles-portfolio-web run build
 
       - name: Test
         run: pnpm run test

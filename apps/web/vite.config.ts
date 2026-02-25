@@ -11,7 +11,7 @@ export default defineConfig({
     },
     base: '/',
     optimizeDeps: {
-        include: ['@mxn2020/minions-bundles-portfolio-sdk'],
+        include: ['@minions-bundles-portfolio/sdk'],
     },
     build: {
         commonjsOptions: {

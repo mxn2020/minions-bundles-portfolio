@@ -82,7 +82,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@mxn2020/minions-bundles-portfolio-sdk':
+      '@minions-bundles-portfolio/sdk':
         specifier: workspace:*
         version: link:../../packages/sdk
       framer-motion:
@@ -131,7 +131,7 @@ importers:
 
   packages/cli:
     dependencies:
-      '@mxn2020/minions-bundles-portfolio-sdk':
+      '@minions-bundles-portfolio/sdk':
         specifier: workspace:*
         version: link:../sdk
       chalk:
@@ -1722,8 +1722,8 @@ packages:
   fast-xml-builder@1.0.0:
     resolution: {integrity: sha512-fpZuDogrAgnyt9oDDz+5DBz0zgPdPZz6D4IR7iESxRXElrlGTRkHJ9eEt+SACRJwT0FNFrt71DFQIUFBJfX/uQ==}
 
-  fast-xml-parser@5.4.0:
-    resolution: {integrity: sha512-ChpjDjfiMs4kETpVpXZHM/GM7smQbQ8T6q4jHD+M32tIH2jyz8gtCiByXn0WNUnQ6XUbVxYSe05FP3A52cEQyQ==}
+  fast-xml-parser@5.4.1:
+    resolution: {integrity: sha512-BQ30U1mKkvXQXXkAGcuyUA/GA26oEB7NzOtsxCDtyu62sjGw5QraKFhx2Em3WQNjPw9PG6MQ9yuIIgkSDfGu5A==}
     hasBin: true
 
   fdir@6.5.0:
@@ -3065,7 +3065,7 @@ snapshots:
 
   '@astrojs/rss@4.0.15':
     dependencies:
-      fast-xml-parser: 5.4.0
+      fast-xml-parser: 5.4.1
       piccolore: 0.1.3
 
   '@astrojs/sitemap@3.7.0':
@@ -4533,7 +4533,7 @@ snapshots:
 
   fast-xml-builder@1.0.0: {}
 
-  fast-xml-parser@5.4.0:
+  fast-xml-parser@5.4.1:
     dependencies:
       fast-xml-builder: 1.0.0
       strnum: 2.1.2
