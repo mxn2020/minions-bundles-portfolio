@@ -1,0 +1,12 @@
+name: minions-bundles-portfolio-workspace
+description: Top-level structural organizational bundle — categories, ecosystems, projects
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-bundles-portfolio"
+deploy_url: null
+last_active: 2026-02-25
+tags: []
+notes: 
