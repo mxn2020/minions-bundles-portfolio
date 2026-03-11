@@ -1,0 +1,8 @@
+name: minions-bundles-portfolio-web
+project_scope: child
+child_type: web-app
+parent_project: minions-bundles-portfolio-workspace
+description: Standard compliance definition for minions-bundles-portfolio-web
+priority: high
+deploy_url: null
+tags: null

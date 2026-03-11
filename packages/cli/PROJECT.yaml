@@ -1,0 +1,8 @@
+name: "@minions-bundles-portfolio/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-bundles-portfolio-workspace
+description: "CLI for minions-bundles-portfolio — Top-level structural organizational bundle — categories, ecosystems, projects"
+priority: high
+deploy_url: null
+tags: null
