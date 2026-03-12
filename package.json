@@ -1,8 +1,8 @@
 {
   "name": "minions-bundles-portfolio-workspace",
   "private": true,
-  "version": "0.1.4",
-  "description": "Top-level structural organizational bundle \u2014 categories, ecosystems, projects",
+  "version": "0.2.0",
+  "description": "Top-level structural organizational bundle — categories, ecosystems, projects",
   "type": "module",
   "license": "MIT",
   "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
