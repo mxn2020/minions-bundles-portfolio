@@ -1,6 +1,6 @@
 {
   "name": "@minions-bundles-portfolio/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-bundles-portfolio — Top-level structural organizational bundle — categories, ecosystems, projects",
   "license": "MIT",
   "repository": {
