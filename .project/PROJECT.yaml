@@ -1,0 +1,16 @@
+name: minions-bundles-portfolio-workspace
+project_scope: main
+project_type: monorepo
+description: Top-level structural organizational bundle — categories, ecosystems, projects
+tier: prototype
+lane: minions-platform
+priority: medium
+oss: true
+stack: ["typescript"]
+repo: "https://github.com/mxn2020/minions-bundles-portfolio"
+deploy_url: null
+last_active: 2026-03-11
+tags: ["minions-bundles-portfolio-workspace", "minions", "toolbox", "bundle"]
+notes: null
+id: null
+category: minion-toolbox
